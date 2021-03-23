@@ -1,2 +1,2 @@
 # Calculator
-Simple calculatorUI project.
+Simple calculator witn an UI
