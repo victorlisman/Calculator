@@ -11,7 +11,7 @@ public:
 	cMain();
 	~cMain();
 
-public:
+private:
 	int nNrFieldWidth = 3, nNrFieldHeight = 3;
 	int nOpFieldWidth = 4, nOpFieldHeight = 5;
 
@@ -26,6 +26,7 @@ public:
 
 	wxTextCtrl* textBox;
 
+public:
 	void OnNullButtonClicked(wxCommandEvent& evt);
 	void OnNumberButtonClicked(wxCommandEvent& evt);
 	void OnClearButtonClicked(wxCommandEvent& evt);
