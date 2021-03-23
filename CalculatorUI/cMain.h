@@ -23,6 +23,7 @@ private:
 	wxButton* bsButton;
 	wxButton* eqButton;
 
+	//penis
 
 	wxTextCtrl* textBox;
 
